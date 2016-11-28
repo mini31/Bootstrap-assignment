@@ -1,0 +1,396 @@
+/*
+
+My Custom CSS
+=============
+
+Author: Mini
+
+*/
+
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   
+   .container
+   {
+      margin: auto;
+   }
+   #recent 
+   {
+      margin-top: 25px;
+   }
+  
+   footer
+   {
+      margin-top: 25px;
+   }
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   #recent .container h1
+   {
+      font-family: 'Roboto', sans-serif;
+      background: transparent;
+
+   }
+   #recent .container h1 a
+   {
+      text-decoration: none;
+      color: #E67E22  ;
+   }
+   
+   footer
+   {
+      background-color: black;
+   }
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+   #nav-cont
+   {
+      padding: 0px;
+	  font-family: 'Roboto', sans-serif;
+   }
+
+.navbar 
+{
+   background-color: #2d2d32;
+}
+   #logo h4
+{
+   color: white;
+   width: 230px;
+   height:40px;
+   font-size: 35px;
+   
+}
+#navigation
+{
+   margin-top: 15px;
+   overflow:visible;
+   font-family: 'Roboto', sans-serif;
+   
+}
+#navigation li
+{
+   
+   font-size: 20px;
+   word-spacing: 10px;
+   color: #5D6D7E;     
+
+}
+#navigation li :hover
+{
+   color: #DC7633;
+}
+#iconuser
+{
+   font-size: 20px;
+   margin-top: 13px;
+}
+
+#searchInput
+{
+   margin-top: 30px;
+   width: 300px;
+   margin-left: 85px;
+}
+#searchbtn
+{
+	margin-top:30px;
+}
+
+
+#id1
+{
+	color:red;
+}
+#id2
+{
+	color:red;
+}
+#id3
+{
+	
+	color:red;
+}
+
+
+#id4
+{
+	
+	color:red;
+}
+
+#id5
+{
+	color:red;
+}
+#id6
+{
+	color:red;
+}
+#id7
+{
+	
+	color:red;
+}
+#id8
+{
+	
+	color:red;
+}
+#id9
+{
+	
+	color:red;
+}
+#id10
+{
+	color:red;
+}
+#id11
+{
+	
+	color:red;
+}
+
+#id12
+{
+	
+	color:red;
+}
+
+
+#heading1
+{
+	text-align:center;
+	margin-bottom:40px;
+}
+#heading2
+{
+	text-align:center;
+	margin-bottom:40px;
+}
+#heading3
+{
+	text-align:center;
+	margin-bottom:40px;
+}
+#search
+{
+	overflow:visible;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- 
+*/
+
+#myCarousel .item { height: 400px; }
+
+#slide1 {
+	background: url('../../img/pic4.jpg') top center no-repeat;
+}
+
+#slide2 {
+	background: url('../../img/pic5.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('../../img/pic6.jpg') top center no-repeat;
+}
+
+
+#myCarousel
+{
+	margin-top:100px;
+}
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+	.thumbnail .price {
+		font-size: 14px;
+	}
+	
+	.thumbnail .price sup {
+		font-size: 10px;
+	}
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+	#myCarousel .item { height: 210px;}
+	
+	#slide1 {
+		background: url('../../img/pic7.jpg') top center no-repeat;
+	}
+	
+	#slide2 {
+		background: url('../../img/pic8.jpg') top center no-repeat;
+	}
+	
+	#slide3 {
+		background: url('../../img/pic9.jpg') top center no-repeat;
+	}
+	
+	.carousel-caption {
+		font-size: 16px;
+	}
+	
+	.carousel-caption h4 {
+		font-size: 22px;
+	}
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	#myCarousel .item { height: 500px; }
+	
+	#slide1 {
+		background: url('../../img/pic1.jpg') top center no-repeat;
+	}
+	
+	#slide2 {
+		background: url('../../img/pic2.jpg') top center no-repeat;
+	}
+	
+	#slide3 {
+		background: url('../../img/pic3.jpg') top center no-repeat;
+	}
+
+}
+
+
+   #snowden img
+   {
+      width: 300px;
+      height: 200px;
+
+   }
+   #ware img
+   {
+      width:250px;
+   }
+   #insurgent img
+   {
+      width:250px;
+   }
+   #battle img
+   {
+      width: 250px;
+   }
+}
+
+
+
+.row {
+     margin-right: 0px; 
+    margin-left: 0px;
+}
+
+
+
+.carousel-caption {
+	font-size: 24px;
+}
+
+.carousel-caption h4 {
+	font-size: 32px;
+}
+
+
+#social{
+	list-style:none;
+	color:white;
+}
+
+   
+#cuisine
+   {
+	text-align:center;   
+	margin-bottom:20px;
+	font-family: 'Roboto', sans-serif;
+	margin-top:80px;
+   }
+#jumbo
+{
+	color:maroon;
+	font-family: 'Roboto', sans-serif;
+}
+footer{
+	text-a:center;
+}
+#copy
+{
+	color:white;
+	font-family: 'Roboto', sans-serif;
+}
+#about
+{
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	margin-left:30px;
+}
+#social
+{
+	
+	list-style:none;
+	color:white;
+	display:inline;
+	margin-left:50px;
+}
+#s1
+{
+	
+	list-style:none;
+	color:white;
+}
+#s2
+{
+	
+	list-style:none;
+	color:white;
+}
+#footerlinks
+{
+	
+	list-style:none;
+	color:white:
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+   
+
+
+
+  body
+   {
+	 max-width: 100%;
+     overflow-x: hidden;
+	 width:100%;
+     margin: auto;
+     -webkit-font-smoothing: antialiased;
+     backface-visibility:1px;
+    background-color:h4h4h4;
+
+   } 
+
+   #centre
+    {
+      padding: 0px;
+   }
+
+ 
+
+
+
+
